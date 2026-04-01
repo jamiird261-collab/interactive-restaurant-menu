@@ -1,15 +1,4 @@
-# interactive-restaurant-menu
-Absolutely — below is a polished, **student-facing GitHub repo package** you can give your learners.
-
-It is designed as a **follow-along project**, not just a prompt. It walks them through the **JavaScript connection step by step**, assumes they are new to making webpages interactive, and gives them room to customize later.
-
----
-
-# Repo Name
-
-`interactive-restaurant-menu`
-
----
+# Interactive-Restaurant-Menu
 
 # Suggested Repo Structure
 
