@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #0F172A;
+  color: #F8FAFC;
+  overflow-x: hidden;
+}
+
+/* Logo / Title */
+.logo {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+/* Buttons container */
+.buttons {
+  margin: 20px;
+}
+
+/* Buttons */
+button {
+  margin: 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 999px;
+  background: #22C55E;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 15px #22C55E;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* Menu Display Box */
+.menu-box {
+  margin: 30px auto;
+  padding: 20px;
+  width: 300px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  font-size: 18px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Floating Food */
+.floating-food img {
+  position: absolute;
+  width: 100px;
+  animation: float 4s ease-in-out infinite;
+}
+
+.burger { top: 20%; left: 10%; }
+.fries { top: 50%; right: 10%; }
+.drink { bottom: 10%; left: 40%; }
+
+/* Floating animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Fade in effect */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
